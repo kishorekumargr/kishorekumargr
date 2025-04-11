@@ -15,7 +15,7 @@ export default function Footer() {
       </div>
       <div>
         <p className="text-xl mx-7 mt-20 mb-30">
-          Like I always say, cant find a door? Make your own. – Edward Elric, Fullmetal Alchemist
+          Like I always say, cant find a door? Make your own. Edward Elric, Fullmetal Alchemist
         </p>
       </div>
     </div>

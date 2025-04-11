@@ -14,7 +14,7 @@ export default function Work() {
           </div>
           <div>
             <p className="text-sm text-stone-500">EVENT</p>
-            <p className="text-lg">College Project (Main)</p>
+            <p className="text-lg">College Project Main</p>
           </div>
           <div>
             <p className="text-sm text-stone-500">YEAR</p>
