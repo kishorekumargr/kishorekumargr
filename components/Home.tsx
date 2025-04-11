@@ -3,7 +3,7 @@ export default function Home() {
     <div>
       <div className="text-4xl ml-10 mt-44 mb-60">
         <p className="text-xl pb-5">Hello,</p>
-        <p>I'm Kishore Kumar,</p>
+        <p>Im Kishore Kumar,</p>
         <p>a Software Developer crafting</p>
         <p>Digital Experiences.</p>
       </div>
