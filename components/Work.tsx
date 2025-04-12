@@ -23,10 +23,10 @@ export default function Work() {
         </div>
         <p className="text-sm text-stone-500 pb-2 mt-12">DESCRIPTION</p>
         <p className="text-lg mb-7">
-          DASH - Distributed Adaptive Serverless Hosting offers a peer to peer, cost-effective, and
-          efficient alternative for hosting serverless functions. It delivers a streamlined
-          solution, designed with developers in mind providing simplicity and effectiveness without
-          compromising performance.
+          DASH Distributed Adaptive Serverless Hosting offers a peer to peer cost-effective and
+          efficient alternative for hosting serverless functions It delivers a streamlined solution
+          designed with developers in mind providing simplicity and effectiveness without
+          compromising performance
         </p>
         <div className="flex justify-end">
           <button className="mb-20 size-16 bg-gray-800 rounded-full">A</button>

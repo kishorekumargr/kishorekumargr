@@ -9,12 +9,12 @@ export default function Home() {
       </div>
       <div className="text-xl mx-18">
         <p className="pb-10">
-          As a final-year undergraduate pursuing a BTech degree in Computer Science and Engineering,
-          Im actively on the lookout for full-time gigs and freelance projects.
+          As a final year undergraduate pursuing a BCA degree in Computer Science and Engineering,
+          Im actively on the lookout for full-time gigs and freelance projects
         </p>
         <p className="pb-12">
-          When Im not working, youll catch me watching anime, reading random stuff or messing with
-          some fun side projects.
+          When Im not working youll catch me watching anime reading random stuff or messing with
+          some fun side projects
         </p>
         <p className="text-3xl text-gray-600">experience</p>
         <p className="text-3xl text-gray-600">awards</p>

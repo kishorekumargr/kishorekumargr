@@ -8,7 +8,7 @@ export default function Navbar() {
         <p>g</p>
         <p>in</p>
         <p>r</p>
-        <p>@</p>
+        <p>m</p>
       </div>
     </div>
   );
