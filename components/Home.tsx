@@ -1,20 +1,22 @@
 export default function Home() {
   return (
     <div>
-      <div className="text-4xl ml-10 mt-44 mb-60">
-        <p className="text-xl pb-5">Hello</p>
+      <div className="text-4xl pl-10 pt-48 pb-72">
         <p>Im Kishore Kumar</p>
         <p>a Software Developer crafting</p>
         <p>Digital Experiences.</p>
       </div>
-      <div className="text-xl mx-18">
+      <div className="text-xl px-18">
         <p className="pb-10">
-          As a final year undergraduate pursuing a BCA degree in Computer Science and Engineering,
-          Im actively on the lookout for full-time gigs and freelance projects
+          I turn ideas into performant, scalable web experiences—with an eye for design and a focus
+          on detail
+        </p>
+        <p className="pb-10">
+          With hands-on experience at Equifax, Nissan Digital, and UST Global, Ive also built
+          products through hackathons and freelance collaborations.
         </p>
         <p className="pb-12">
-          When Im not working youll catch me watching anime reading random stuff or messing with
-          some fun side projects
+          Building at the edge of design and engineering — with purpose, not just polish.
         </p>
         <p className="text-3xl text-gray-600">experience</p>
         <p className="text-3xl text-gray-600">awards</p>

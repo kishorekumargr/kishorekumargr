@@ -9,16 +9,12 @@ export default function Work() {
         <Image src="/images/dash.webp" alt="Dash" height={200} width={400} className="rounded-xl" />
         <div className="flex flex-row justify-between mt-10">
           <div>
-            <p className="text-sm text-stone-500">TYPE</p>
-            <p className="text-lg">Desktop App</p>
-          </div>
-          <div>
             <p className="text-sm text-stone-500">EVENT</p>
-            <p className="text-lg">College Project Main</p>
+            <p className="text-lg">College Project</p>
           </div>
           <div>
             <p className="text-sm text-stone-500">YEAR</p>
-            <p className="text-lg">2044</p>
+            <p className="text-lg">2024</p>
           </div>
         </div>
         <p className="text-sm text-stone-500 pb-2 mt-12">DESCRIPTION</p>
