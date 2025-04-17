@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="hidden md:flex flex-row justify-between px-15 pt-7">
         <p>K</p>
         <div className="text-xs flex gap-10">
-          <Link href="https://github.com/grkisho">Github</Link>
+          <Link href="https://github.com/grkisho">github</Link>
           <Link href="">linkedin</Link>
           <Link href="">resume</Link>
         </div>
