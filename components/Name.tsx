@@ -5,6 +5,7 @@ export default function Name() {
         <p>I&apos;m Kishore Kumar,</p>
         <p>a Software Developer crafting</p>
         <p>Digital Experiences.</p>
+        <p>Looking for Job</p>
       </div>
     </>
   );
