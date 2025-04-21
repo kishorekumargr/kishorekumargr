@@ -8,7 +8,7 @@ export default function Navbar() {
         <p className="text-3xl">K</p>
         <div className="text-2xl font-bold flex gap-4">
           <Link href="https://github.com/grkisho">G</Link>
-          <p>in</p>
+          <Link href="https://www.linkedin.com/in/grkisho/">in</Link>
           <p>R</p>
           <p>@</p>
         </div>
@@ -18,7 +18,7 @@ export default function Navbar() {
         <p>K</p>
         <div className="text-xs flex gap-10">
           <Link href="https://github.com/grkisho">github</Link>
-          <Link href="">linkedin</Link>
+          <Link href="https://www.linkedin.com/in/grkisho/">linkedin</Link>
           <Link href="">resume</Link>
         </div>
         <Link href="">grkisho@gmail.com</Link>
