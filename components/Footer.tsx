@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <footer className="flex flex-col items-center mt-80">
       <div className="flex flex-col gap-4 text-2xl pt-4 pb-10">
-        <Link href="https://github.com/kishorekumargr">G Github</Link>
-        <Link href="https://www.linkedin.com/in/kishorekumargr/">in Linkedin</Link>
+        <Link href="https://github.com/grkisho">G Github</Link>
+        <Link href="https://www.linkedin.com/in/ikisho/">in Linkedin</Link>
         <Link href="">@ Email</Link>
         <Link href="">R Resume</Link>
       </div>

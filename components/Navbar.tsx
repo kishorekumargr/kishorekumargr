@@ -7,8 +7,8 @@ export default function Navbar() {
       <div className="md:hidden flex flex-row justify-between px-5 pt-7">
         <p className="text-3xl">K</p>
         <div className="text-2xl font-bold flex gap-4">
-          <Link href="https://github.com/kishorekumargr">G</Link>
-          <Link href="https://www.linkedin.com/in/kishorekumargr/">in</Link>
+          <Link href="https://github.com/grkisho">G</Link>
+          <Link href="https://www.linkedin.com/in/ikisho/">in</Link>
           <p>R</p>
           <p>@</p>
         </div>
@@ -17,8 +17,8 @@ export default function Navbar() {
       <div className="hidden md:flex flex-row justify-between px-15 pt-7">
         <p>K</p>
         <div className="text-xs flex gap-10">
-          <Link href="https://github.com/kishorekumargr">github</Link>
-          <Link href="https://www.linkedin.com/in/kishorekumargr/">linkedin</Link>
+          <Link href="https://github.com/grkisho">github</Link>
+          <Link href="https://www.linkedin.com/in/ikisho/">linkedin</Link>
           <Link href="">resume</Link>
         </div>
         <Link href="">grkisho@gmail.com</Link>
