@@ -18,9 +18,14 @@ export default function Experience() {
         <p className="text-3xl text-gray-600">experience</p>
         <p>Working on Freelance Projects</p>
         <p>Working on my Own Projects</p>
+        <p>Looking to Start a Business</p>
+        <p>Looking for Highpay Job</p>
         <p className="text-3xl text-gray-600">awards</p>
         <p className="text-3xl text-gray-600">skills</p>
-        <p>Nextjs React Expo Nodejs Django Mongodb Sql Aws</p>
+        <p>
+          Nextjs React Expo Nodejs Django Stripe Flask Mongodb Postgresql Mysql Aws Azure
+          Googlecloud Firebase Appwrite
+        </p>
       </div>
     </section>
   );
