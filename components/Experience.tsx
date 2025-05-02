@@ -26,6 +26,7 @@ export default function Experience() {
           Nextjs React Expo Tailwind Motion Threejs Nodejs Django Flask Stripe Paypal Mongodb
           Postgresql Mysql Redis Aws Azure Googlecloud Firebase Appwrite
         </p>
+        <p>Figma GraphicsDesign UI/UX VideoEditing</p>
       </div>
     </section>
   );
