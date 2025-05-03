@@ -23,8 +23,8 @@ export default function Experience() {
         <p className="text-3xl text-gray-600">awards</p>
         <p className="text-3xl text-gray-600">skills</p>
         <p>
-          Nextjs React Expo Tailwind Motion Threejs Nodejs Django Flask Stripe Paypal Mongodb
-          Postgresql Mysql Redis Aws Azure Googlecloud Firebase Appwrite
+          Nextjs React ReactNative Expo Tailwind Motion Threejs Nodejs Django Flask Stripe Paypal
+          Mongodb Postgresql Mysql Redis Aws Azure Googlecloud Firebase Appwrite Clerk Auth0
         </p>
         <p>Figma GraphicsDesign UI/UX VideoEditing</p>
       </div>
