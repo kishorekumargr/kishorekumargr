@@ -33,6 +33,10 @@ export default function Work() {
         </div>
       </div>
 
+      <p className="text-4xl pb-2">FIXQ</p>
+      <p className="text-4xl pb-2">CARBUY</p>
+      <p className="text-4xl pb-2">TECHQ</p>
+
       {/* Flask Drive */}
       <p className="text-4xl pb-2">FLASH DRIVE</p>
       <p className="text-2xl text-[#A3A3A3] pb-4">Website</p>

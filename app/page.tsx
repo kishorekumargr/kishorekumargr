@@ -4,7 +4,7 @@ import Experience from "@/components/Experience";
 import Work from "@/components/Work";
 import Footer from "@/components/Footer";
 
-export default function App() {
+export default function Home() {
   return (
     <>
       <Navbar />
