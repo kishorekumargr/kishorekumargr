@@ -19,17 +19,8 @@
   }
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 body {
-  @apply bg-[#060606] text-white;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer components {
-  .tech-stack {
-    @apply p-2 px-3 bg-[#2a2a2a] text-sm text-gray-400 rounded-xl transition-all duration-300;
-  }
-}
-
-.fluid-text {
-  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  @apply bg-white text-black;
 }
