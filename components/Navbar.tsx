@@ -2,13 +2,15 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav>
-      <button>K</button>
-      <div>
+    <nav className="flex sticky top-0 z-50 justify-around gap-5 pt-10 mb-30">
+      <Link className="text-3xl font-bold" href="/">
+        K
+      </Link>
+      <div className="flex gap-5">
         <Link href="/">Home</Link>
-      </div>
-      <div>
-        <button>Home</button>
+        <Link href="/projects">Projects</Link>
+        <Link href="/blog">Blog</Link>
+        <Link href="/">Resources</Link>
       </div>
     </nav>
   );
