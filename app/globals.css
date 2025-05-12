@@ -19,6 +19,8 @@
   }
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 body {
-  @apply font-sans bg-white text-black;
+  @apply font-sans bg-white text-black dark:bg-black dark:text-white;
 }

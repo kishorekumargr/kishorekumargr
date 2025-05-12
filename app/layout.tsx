@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -9,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kishore - Software Developer",
-  description: "Kishore Software Developer",
+  title: "Kishore Kumar - Software Developer",
+  description: "Kishore Kumar Software Developer",
 };
 
 export default function RootLayout({
@@ -19,8 +21,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} antialiased`}>
+    <html lang="en" className={`${inter.variable} dark antialiased`}>
+      <Navbar />
       <body>{children}</body>
+      <Footer />
     </html>
   );
 }
