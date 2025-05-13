@@ -1,4 +1,4 @@
-const HireForm = () => {
+export default function Hire() {
   return (
     <div className="border border-blue-200 rounded p-6 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
       <h5 className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">
@@ -37,6 +37,4 @@ const HireForm = () => {
       <p className="text-sm text-gray-800 dark:text-gray-200"></p>
     </div>
   );
-};
-
-export default HireForm;
+}

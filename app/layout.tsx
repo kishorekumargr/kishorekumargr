@@ -5,14 +5,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const inter = Inter({
-  subsets: ["latin"],
   variable: "--font-inter",
-  display: "swap",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Kishore Kumar - Software Developer",
-  description: "Kishore Kumar Software Developer",
+  description: "Kishore Kumar Software Developer Portfolio",
 };
 
 export default function RootLayout({
@@ -21,10 +20,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} dark antialiased`}>
-      <Navbar />
-      <body>{children}</body>
-      <Footer />
+    <html lang="en" className="dark">
+      <body className={`${inter.variable} font-inter antialiased`}>
+        <Navbar />
+        {children} <Footer />
+      </body>
     </html>
   );
 }

@@ -2,11 +2,9 @@ import Link from "next/link";
 
 export default function Blog() {
   return (
-    <main className="flex flex-col justify-center bg-white dark:bg-zinc-900 px-8 text-gray-900 dark:text-gray-100 antialiased">
+    <main>
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-          Blog
-        </h1>
+        <h1>Blog</h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           I&apos;ve been programming for almost 6 years now. Throughout this year, I&apos;ve worked
           with various technologies. I&apos;m here to share just that. Use the search below to
@@ -20,11 +18,11 @@ export default function Blog() {
             className="px-4 py-2 border border-gray-300 dark:border-zinc-800 focus:ring-blue-500 focus:border-blue-500 block w-full rounded-md bg-white dark:bg-zinc-800 text-gray-900 dark:text-gray-100"
           />
         </div>
+        <h3>Most Popular</h3>
+        <h3>All Posts</h3>
       </div>
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 mt-20">
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-8 text-black dark:text-white">
-          Free Code Camp
-        </h1>
+        <h1>Free Code Camp</h1>
         <div className=" grid grid-cols-1 sm:grid-cols-2 gap-10 lg:gap-10 w-full">
           <Link
             href="https://www.freecodecamp.org/news/prepare-for-react-technical-interviews/"
