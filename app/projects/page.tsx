@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <main>
-      <div className="max-w-2xl mx-auto mb-16">
+      <div className="mb-16">
         <h1>Projects</h1>
         <h2 className="text-gray-600 dark:text-gray-400 mb-16">
           I’ve developed commercial projects as well as hobby projects. All projects are included
@@ -45,7 +45,6 @@ export default function Projects() {
             </g>
           </svg>
         </div>
-
         <div>
           <h4 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
             Moonbeam
