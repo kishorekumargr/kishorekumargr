@@ -41,7 +41,6 @@ export default function Blog() {
             className=" w-full mb-10 h-full"
             target="__blank"
           />
-
           <p className="text-sm font-light py-2">May 25, 2022</p>
           <div className="flex flex-col justify-between ">
             <h2 className="font-bold text-lg text-gray-700 dark:text-zinc-300">

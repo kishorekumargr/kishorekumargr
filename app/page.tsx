@@ -10,6 +10,7 @@ export default function Home() {
       </div>
       <div className="mb-10">
         <h3>Projects</h3>
+        <h3>Tradeq</h3>
       </div>
       <div>
         <h3>Upcoming Projects</h3>
