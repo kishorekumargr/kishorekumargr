@@ -6,14 +6,11 @@ export default function Home() {
         <p>Software Engineer</p>
       </div>
       <div className="mb-10">
-        <h3>Recent Blogs</h3>
+        <h3>Projects</h3>
+        <h4>Tradeq</h4>
       </div>
       <div className="mb-10">
-        <h3>Projects</h3>
-        <h3>Tradeq</h3>
-      </div>
-      <div>
-        <h3>Upcoming Projects</h3>
+        <h3>Recent Blogs</h3>
       </div>
     </main>
   );
