@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Blog() {
   return (
     <main>
-      <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+      <div>
         <h1>Blog</h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           I&apos;ve been programming for almost 6 years now. Throughout this year, I&apos;ve worked
