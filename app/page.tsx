@@ -3,7 +3,7 @@ export default function Home() {
     <main>
       <div className="mt-6 mb-10">
         <h1>Kishore Kumar</h1>
-        <p>Software Engineer</p>
+        <p>Software Developer</p>
       </div>
     </main>
   );

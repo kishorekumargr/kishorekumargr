@@ -61,6 +61,10 @@
 
   .nav-desktop {
     @apply hidden sm:flex flex-row gap-6 items-center rounded-full bg-white/90 px-6 text-sm font-semibold text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-900/90 dark:text-zinc-200 dark:ring-white/10;
+
+    a {
+      @apply hover:text-teal-600;
+    }
   }
 
   .project-card {

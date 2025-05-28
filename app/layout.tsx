@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kishore Kumar - Developer, Writer, Creator",
+  title: "Kishore Kumar - Developer",
   description: "Kishore Kumar",
 };
 
