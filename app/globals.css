@@ -1,11 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #000000;
   --foreground: #171717;
 }
 
-@custom-variant dark (&:where(.dark, .dark *));
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -14,60 +19,27 @@
   }
 }
 
-@theme inline {
-  --font-inter: var(--font-inter);
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer base {
-  body {
-    @apply bg-white text-black dark:bg-zinc-900 dark:text-white;
+  h2 {
+    @apply mt-15 font-bold text-2xl tracking-tight;
   }
-
-  nav {
-    @apply sticky top-0 z-10 flex flex-row justify-between max-w-4xl mx-auto p-8 mt-0 mb-0 md:mt-4 md:mb-10 bg-white dark:bg-zinc-900;
-  }
-
-  main {
-    @apply flex flex-col px-8 md:px-0 max-w-2xl mx-auto;
-  }
-
-  footer {
-    @apply flex flex-col px-8 md:px-0 max-w-2xl mx-auto;
-  }
-
-  h1 {
-    @apply font-bold text-3xl md:text-5xl tracking-tight mb-4;
-  }
-
   h3 {
-    @apply font-bold text-2xl md:text-4xl tracking-tight;
-  }
-
-  h4 {
-    @apply text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100;
+    @apply font-bold;
   }
 
   p {
-    @apply text-base text-zinc-600 dark:text-zinc-400;
+    @apply text-[#9BA3AF];
   }
 }
 
 @layer components {
-  .nav-mobile {
-    @apply sm:hidden;
-  }
-
-  .nav-desktop {
-    @apply hidden sm:flex flex-row gap-6 items-center rounded-full bg-white/90 px-6 text-sm font-semibold text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-900/90 dark:text-zinc-200 dark:ring-white/10;
-
-    a {
-      @apply hover:text-teal-600;
-    }
-  }
-
-  .project-card {
-    @apply flex flex-col items-center;
+  .card {
+    @apply bg-[#111111] mt-2 p-3 border border-gray-900 hover:border-gray-700 rounded-xl;
   }
 }
