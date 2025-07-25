@@ -11,24 +11,16 @@ export default function Home() {
       </div>
       <div>
         <h2>Work Experience</h2>
-        <p>Freelancer</p>
       </div>
       <div>
         <h2>Education</h2>
-        <div className="card">
-          <h3>SRM University</h3>
-          <p>Bachelor of Computer Applications 2025 - Present</p>
-        </div>
+        <div className="card"></div>
       </div>
       <div>
         <h2>Skills</h2>
-        <p>Nextjs</p>
-        <p>Tailwind</p>
       </div>
       <div>
         <h2>Projects</h2>
-        <p>Amazon-Clone</p>
-        <p>Apple-Clone</p>
       </div>
     </main>
   );
