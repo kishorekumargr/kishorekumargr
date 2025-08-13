@@ -1,3 +1,3 @@
-# Kishore Kumar
+## Kishore Kumar
 
 Software Developer Portfolio
