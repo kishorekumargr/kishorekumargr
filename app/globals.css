@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000000;
+  --background: #ffffff;
   --foreground: #171717;
 }
 
@@ -25,21 +25,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
 @layer base {
-  h2 {
-    @apply mt-15 font-bold text-2xl tracking-tight;
-  }
-  h3 {
-    @apply font-bold;
-  }
-
-  p {
-    @apply text-[#9BA3AF];
-  }
 }
 
 @layer components {
-  .card {
-    @apply bg-[#111111] mt-2 p-3 border border-gray-900 hover:border-gray-700 rounded-xl;
-  }
 }
+*/

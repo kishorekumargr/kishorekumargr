@@ -1,27 +1,40 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <main className="flex flex-col mx-auto mt-20 md:mt-28 md:p-0 px-8 max-w-2xl text-white">
-      <div>
-        <h1 className="font-bold text-5xl tracking-tight">Kishore Kumar</h1>
-        <p className="text-[#9BA3AF] text-xl">Software Developer</p>
-      </div>
-      <div>
-        <h2>About</h2>
-        <p>I&apos;am a Full Stack Developer</p>
-      </div>
-      <div>
-        <h2>Work Experience</h2>
-      </div>
-      <div>
-        <h2>Education</h2>
-        <div className="card"></div>
-      </div>
-      <div>
-        <h2>Skills</h2>
-      </div>
-      <div>
-        <h2>Projects</h2>
-      </div>
-    </main>
+    <div className="h-screen">
+      <nav className="top-10 sticky flex justify-evenly items-center bg-linear-to-b from-gray-50/80 to-gray-300/80 shadow-md mx-auto px-10 rounded-full max-w-3xl h-15 font-bold text-gray-600">
+        <Link className="hover:text-black hover:scale-150 transition-transform transform" href="/">
+          Home
+        </Link>
+        <Link className="hover:text-black hover:scale-150 transition-transform transform" href="/">
+          About
+        </Link>
+        <Link className="hover:text-black hover:scale-150 transition-transform transform" href="/">
+          Projects
+        </Link>
+        <Link className="hover:text-black hover:scale-150 transition-transform transform" href="/">
+          Contact
+        </Link>
+      </nav>
+
+      <main>
+        <section>
+          <h1 className="m-50 font-bold text-6xl text-center tracking-tight">Kishore Kumar</h1>
+        </section>
+        <section>
+          <h2>About</h2>
+        </section>
+        <section>
+          <h2>Projects</h2>
+        </section>
+        <section>
+          <h2>Contact</h2>
+        </section>
+      </main>
+      <footer>
+        <Link href="/">Footer</Link>
+      </footer>
+    </div>
   );
 }
